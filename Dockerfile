@@ -1,5 +1,5 @@
 FROM tomcat:9
-WORKDIR /mnt/file/docker-file/
-COPY gameoflife.war /usr/local/tomcat/webapps
+WORKDIR /mnt
+COPY sample.war /usr/local/tomcat/webapps
 EXPOSE 8080
 
